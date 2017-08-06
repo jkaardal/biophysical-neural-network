@@ -431,15 +431,6 @@ int main(int argc, char *argv[]) {
     char *cargs;
     int *offsets;
     int max_t;
-    // gain of 10.0 is steady state 1/1
-    // gain of 100.0 is steady state 1/1
-    // gain of 500.0 is steady state 2/2
-    // gain of 550.0 is steady state 3/3
-    // gain of 600.0 is chaotic 3/4
-    // gain of 650.0 is chaotic 1/1
-    // gain of 700.0 is chaotic 1/1
-    // gain of 750.0 is chaotic 1/1
-    // gain of 1000.0 is chaotic 2/2
     double gain = 550.0;
 
     const char filename[] = "./data.txt";
