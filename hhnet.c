@@ -420,7 +420,7 @@ double round(double x) {
 
 // multiple neurons in a network
 int main(int argc, char *argv[]) {
-    int N = 1; //100;
+    int N = 100;
     double t = 0.0;
     double dt = 0.01;
     double T = 20.0; // (ms)
